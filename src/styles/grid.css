@@ -1,0 +1,19 @@
+.customgrid-container {
+  min-height: 100%;
+  overflow: auto;
+}
+
+.customgrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: auto; 
+  gap: 1rem;
+  padding: 4rem;
+  min-height: 1%;
+  overflow: auto;
+}
+
+.checkoutButton {
+  margin: 4rem;
+  margin-top: 0;
+}
